@@ -3,4 +3,4 @@ devel
 logs
 .vscode
 .catkin_tools
-FC-Planner/FC-Planner/src/hierarchical_coverage_planner/solution/LKH/OBJ/*
+src/hierarchical_coverage_planner/solution/LKH/SRC/OBJ/*
