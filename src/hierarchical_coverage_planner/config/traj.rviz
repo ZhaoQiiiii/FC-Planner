@@ -4,8 +4,7 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /INPUT1/INPUT_MESH1
-        - /INPUT1/INPUT_PCLOUD1
+        - /INPUT1
       Splitter Ratio: 0.5264706015586853
     Tree Height: 751
   - Class: rviz/Selection
@@ -25,7 +24,7 @@ Panels:
   - Class: rviz/Time
     Name: Time
     SyncMode: 0
-    SyncSource: ""
+    SyncSource: INPUT_PCLOUD
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -46,7 +45,7 @@ Visualization Manager:
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
-      Enabled: false
+      Enabled: true
       Line Style:
         Line Width: 0.029999999329447746
         Value: Lines
@@ -59,7 +58,7 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 40
       Reference Frame: <Fixed Frame>
-      Value: false
+      Value: true
     - Class: rviz/Group
       Displays:
         - Class: rviz/Marker
@@ -171,7 +170,7 @@ Visualization Manager:
           Marker Topic: /rosa_vis/rr_lines
           Name: edges
           Namespaces:
-            {}
+            "": true
           Queue Size: 100
           Value: true
         - Alpha: 0.800000011920929
@@ -207,7 +206,7 @@ Visualization Manager:
           Marker Topic: /rosa_vis/vertex_ID
           Name: vertexID
           Namespaces:
-            {}
+            vertex_ID: true
           Queue Size: 100
           Value: true
         - Class: rviz/MarkerArray
@@ -262,7 +261,7 @@ Visualization Manager:
             {}
           Queue Size: 100
           Value: true
-      Enabled: false
+      Enabled: true
       Name: Skeleton
     - Class: rviz/Group
       Displays:
@@ -350,7 +349,7 @@ Visualization Manager:
           Use Fixed Frame: true
           Use rainbow: true
           Value: false
-      Enabled: false
+      Enabled: true
       Name: Mapping
     - Class: rviz/Group
       Displays:
@@ -474,7 +473,7 @@ Visualization Manager:
           Use Fixed Frame: true
           Use rainbow: true
           Value: false
-      Enabled: false
+      Enabled: true
       Name: Path
     - Class: rviz/Group
       Displays:
@@ -543,7 +542,7 @@ Visualization Manager:
           Marker Topic: /fc_planner/drone
           Name: Drone
           Namespaces:
-            {}
+            current_mesh: true
           Queue Size: 100
           Value: true
         - Class: rviz/Marker
@@ -551,7 +550,7 @@ Visualization Manager:
           Marker Topic: /fc_planner/cmd_fov
           Name: FlightFoV
           Namespaces:
-            {}
+            current_fov: true
           Queue Size: 100
           Value: true
         - Alpha: 1
@@ -635,7 +634,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/ThirdPersonFollower
-      Distance: 151.15187072753906
+      Distance: 107.44493103027344
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -643,17 +642,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -10.926826477050781
-        Y: -10.654403686523438
-        Z: -0.00012803258141502738
+        X: 16.198410034179688
+        Y: -7.490543365478516
+        Z: -9.370030602440238e-05
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.1697952300310135
+      Pitch: 0.5997973680496216
       Target Frame: <Fixed Frame>
-      Yaw: 4.573812007904053
+      Yaw: 5.2388434410095215
     Saved:
       - Class: rviz/ThirdPersonFollower
         Distance: 40.93450164794922
@@ -705,5 +704,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1408
-  X: 2934
-  Y: 136
+  X: 2144
+  Y: 277

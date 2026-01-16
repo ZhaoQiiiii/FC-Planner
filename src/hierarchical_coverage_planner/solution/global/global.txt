@@ -1,19 +1,23 @@
-NAME : global.19896.tour
-COMMENT : Length = 19896
-COMMENT : Found by LKH [Keld Helsgaun] Mon May 19 20:42:20 2025
+NAME : global.23413.tour
+COMMENT : Length = 23413
+COMMENT : Found by LKH [Keld Helsgaun] Thu Jan 15 18:39:57 2026
 TYPE : TOUR
-DIMENSION : 11
+DIMENSION : 15
 TOUR_SECTION
 1
+6
 3
+5
+7
+10
 9
 8
-2
+15
+14
+13
 11
-10
-6
-7
+12
+2
 4
-5
 -1
 EOF
